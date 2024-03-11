@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Page d'accueil{% endblock %}
+
+{% block body %}
+
+<body>
+    <div >
+        <div >
+         <form method="POST" >
+             <label for="name"> Nom:</label><br>
+             <input type="text" id="fname" name="fname" value="djabi"><br>
+             <label for="lastname">Prénom:</label><br>
+             <input type="text" id="lname" name="lname" value="Doe"><br>
+             <label for="lastname">jour:</label><br>
+             <input type="number" id="jour_de_naissance" name="jour_de_naissance" value="20"><br>
+             <label for="lastname">mois:</label><br>
+             <input type="number" id="mois_de_naissance" name="mois_de_naissance" value="06"><br>
+             <label for="lastname">anné:</label><br>
+             <input type="number" id="annee_de_naissance" name="annee_de_naissance" value="1998"><br><br>
+
+             <button type="submit">Vérifier</button>
+            
+             <!-- <label for="start">Date de naissance:</label>
+             <input type="date" id="start" name="born-start" value="1900-07-22" min="1900-01-01" max="2024-12-31" /> -->
+         </form>
+         <ul>
+          
+         </ul>
+        </div>
+    </div>
+</body>
+
+{% endblock %}
+
+

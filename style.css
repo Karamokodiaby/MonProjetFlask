@@ -1,0 +1,31 @@
+/* static/css/style.css */
+header img { 
+    
+    width: 100%;
+    height: auto;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.images-container img {
+    max-width: 45%;
+    height: auto;
+}
+
+
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+  

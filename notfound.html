@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Page d'accueil{% endblock %}
+
+{% block body %}
+
+<div class="container"><h1>Résultats obtenus</h1>{{resultat}}</div> <br>
+<button  href="{{ url_for('inscription') }}">inscription</button>
+
+{% endblock %}
+
+
